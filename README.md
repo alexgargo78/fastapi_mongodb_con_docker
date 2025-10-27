@@ -57,22 +57,22 @@ FASTAPI_MONGODB_CON_DOCKER/
 
 Principal
 
-![Principal](./API_Reserva_Restaurante._Principal.png)
+![Principal](./api/Principal.png)
 
 
 
 Listar Reservas 
 
-![Listar](./API_Reserva_Restaurante_Listar_Reserva.png)
+![Listar](./api/Listar.png)
 
 
 Crear Reserva
 
-![Crear](./API_Reserva_Restaurante_Crear%20Reserva.png)
+![Crear](./api/Crear.png)
 
 
 Borrar Reserva
 
-![Borrar](./API_Reserva_Restaurante_Borrar%20Reservaimage.png)
+![Borrar](./api/Borrar.png)
 
 
