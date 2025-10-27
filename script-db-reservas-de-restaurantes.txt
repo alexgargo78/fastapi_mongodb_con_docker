@@ -1,0 +1,59 @@
+use reservas_db
+
+db.reservas.find([
+  {
+    _id: ObjectId('68ffbb486d784a0ff697f036'),
+    nombre: 'Ana López',
+    telefono: '600123456',
+    personas: 3,
+    restaurante: 'Casa Paco',
+    fecha_hora: ISODate('2025-12-01T21:00:00.000Z'),
+    notas: 'Ventana'
+  },
+  {
+    _id: ObjectId('68ffbddf6d784a0ff697f038'),
+    nombre: 'Carlos Ruiz',
+    telefono: '600123111',
+    personas: 2,
+    restaurante: 'La Trattoria Italiana',
+    fecha_hora: ISODate('2025-12-01T20:00:00.000Z'),
+    notas: 'Cena romántica'
+  },
+  {
+    _id: ObjectId('68ffbe0b6d784a0ff697f039'),
+    nombre: 'Lucía Fernández',
+    telefono: '600123222',
+    personas: 5,
+    restaurante: 'Sushi Tokio',
+    fecha_hora: ISODate('2025-12-02T21:00:00.000Z'),
+    notas: 'Cumpleaños'
+  },
+  {
+    _id: ObjectId('68ffbe216d784a0ff697f03a'),
+    nombre: 'David Romero',
+    telefono: '600123333',
+    personas: 3,
+    restaurante: 'Casa Paco',
+    notas: 'Comida de trabajo'
+  },
+  {
+    _id: ObjectId('68ffbe406d784a0ff697f03b'),
+    nombre: 'Patricia Gómez',
+    telefono: '600123444',
+    personas: 6,
+    restaurante: 'El Rincón Mexicano',
+    fecha_hora: ISODate('2025-12-04T22:00:00.000Z'),
+    notas: 'Noche con amigos'
+  },
+  {
+    _id: ObjectId('68ffbe556d784a0ff697f03c'),
+    nombre: 'Andrés López',
+    telefono: '600123555',
+    personas: 4,
+    restaurante: 'Casa Paco',
+    fecha_hora: ISODate('2025-12-03T21:30:00.000Z'),
+    notas: 'Aniversario'
+  }
+])
+
+
